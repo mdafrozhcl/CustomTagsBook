@@ -1,0 +1,34 @@
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>1.1</jspversion>
+	<shortname>dt</shortname>
+	<function>
+        <name>perimeter</name>
+        <function-class>com.afroz.Box</function-class>
+        <function-signature>java.lang.Double perimeter(java.lang.Double, java.lang.Double)</function-signature>
+    </function>
+	<tag>
+		<name>date</name>
+		<tagclass>com.afroz.DateHandler</tagclass>
+	</tag>
+	<tag>
+		<name>book</name>
+		<tagclass>com.afroz.Book</tagclass>
+	</tag>
+	<tag>
+		<name>bookname</name>
+		<tagclass>com.afroz.BookName</tagclass>
+	</tag>
+	<tag>
+		<name>booknumber</name>
+		<tagclass>com.afroz.BookNumber</tagclass>
+	</tag>
+	<tag>
+		<name>bookprice</name>
+		<tagclass>com.afroz.BookPrice</tagclass>
+	</tag>
+	<tag>
+		<name>bookbundle</name>
+		<tagclass>com.afroz.BookSession</tagclass>
+	</tag>
+</taglib>
